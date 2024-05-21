@@ -1,0 +1,144 @@
+body {
+    background-color:pink;
+    justify-content: center;
+    align-items: center;
+}
+
+#message {
+    margin: auto;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Gill Sans", "Arial", "Verdana";
+    color: white;
+    --stroke-color-one:black;
+    --stroke-width-one: 2px;
+    text-shadow: calc(var(--stroke-width-one) * 1) calc(var(--stroke-width-one) * 0) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * 0.9239) calc(var(--stroke-width-one) * 0.3827) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * 0.7071) calc(var(--stroke-width-one) * 0.7071) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * 0.3827) calc(var(--stroke-width-one) * 0.9239) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * 0) calc(var(--stroke-width-one) * 1) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * -0.3827) calc(var(--stroke-width-one) * 0.9239) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * -0.7071) calc(var(--stroke-width-one) * 0.7071) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * -0.9239) calc(var(--stroke-width-one) * 0.3827) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * -1) calc(var(--stroke-width-one) * 0) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * -0.9239) calc(var(--stroke-width-one) * -0.3827) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * -0.7071) calc(var(--stroke-width-one) * -0.7071) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * -0.3827) calc(var(--stroke-width-one) * -0.9239) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * 0) calc(var(--stroke-width-one) * -1) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * 0.3827) calc(var(--stroke-width-one) * -0.9239) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * 0.7071) calc(var(--stroke-width-one) * -0.7071) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * 0.9239) calc(var(--stroke-width-one) * -0.3827) 0
+      var(--stroke-color-one);
+}
+
+#title {
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Arial', 'Verdana';
+    padding: 10px;
+    color: red;
+    z-index: 0;
+    --stroke-color-one:white;
+    --stroke-width-one: 2px;
+    --stroke-color-two:black;
+    --stroke-width-two: 4px;
+    text-shadow: calc(var(--stroke-width-one) * 1) calc(var(--stroke-width-one) * 0) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * 0.9239) calc(var(--stroke-width-one) * 0.3827) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * 0.7071) calc(var(--stroke-width-one) * 0.7071) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * 0.3827) calc(var(--stroke-width-one) * 0.9239) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * 0) calc(var(--stroke-width-one) * 1) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * -0.3827) calc(var(--stroke-width-one) * 0.9239) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * -0.7071) calc(var(--stroke-width-one) * 0.7071) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * -0.9239) calc(var(--stroke-width-one) * 0.3827) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * -1) calc(var(--stroke-width-one) * 0) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * -0.9239) calc(var(--stroke-width-one) * -0.3827) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * -0.7071) calc(var(--stroke-width-one) * -0.7071) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * -0.3827) calc(var(--stroke-width-one) * -0.9239) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * 0) calc(var(--stroke-width-one) * -1) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * 0.3827) calc(var(--stroke-width-one) * -0.9239) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * 0.7071) calc(var(--stroke-width-one) * -0.7071) 0
+      var(--stroke-color-one),
+    calc(var(--stroke-width-one) * 0.9239) calc(var(--stroke-width-one) * -0.3827) 0
+      var(--stroke-color-one), 
+    calc(var(--stroke-width-two) * 1) calc(var(--stroke-width-two) * 0) 0
+      var(--stroke-color-two),
+    calc(var(--stroke-width-two) * 0.9239) calc(var(--stroke-width-two) * 0.3827) 0
+      var(--stroke-color-two),
+    calc(var(--stroke-width-two) * 0.7071) calc(var(--stroke-width-two) * 0.7071) 0
+      var(--stroke-color-two),
+    calc(var(--stroke-width-two) * 0.3827) calc(var(--stroke-width-two) * 0.9239) 0
+      var(--stroke-color-two),
+    calc(var(--stroke-width-two) * 0) calc(var(--stroke-width-two) * 1) 0
+      var(--stroke-color-two),
+    calc(var(--stroke-width-two) * -0.3827) calc(var(--stroke-width-two) * 0.9239) 0
+      var(--stroke-color-two),
+    calc(var(--stroke-width-two) * -0.7071) calc(var(--stroke-width-two) * 0.7071) 0
+      var(--stroke-color-two),
+    calc(var(--stroke-width-two) * -0.9239) calc(var(--stroke-width-two) * 0.3827) 0
+      var(--stroke-color-two),
+    calc(var(--stroke-width-two) * -1) calc(var(--stroke-width-two) * 0) 0
+      var(--stroke-color-two),
+    calc(var(--stroke-width-two) * -0.9239) calc(var(--stroke-width-two) * -0.3827) 0
+      var(--stroke-color-two),
+    calc(var(--stroke-width-two) * -0.7071) calc(var(--stroke-width-two) * -0.7071) 0
+      var(--stroke-color-two),
+    calc(var(--stroke-width-two) * -0.3827) calc(var(--stroke-width-two) * -0.9239) 0
+      var(--stroke-color-two),
+    calc(var(--stroke-width-two) * 0) calc(var(--stroke-width-two) * -1) 0
+      var(--stroke-color-two),
+    calc(var(--stroke-width-two) * 0.3827) calc(var(--stroke-width-two) * -0.9239) 0
+      var(--stroke-color-two),
+    calc(var(--stroke-width-two) * 0.7071) calc(var(--stroke-width-two) * -0.7071) 0
+      var(--stroke-color-two),
+    calc(var(--stroke-width-two) * 0.9239) calc(var(--stroke-width-two) * -0.3827) 0
+      var(--stroke-color-two);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 23%;
+  max-width: 23%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
