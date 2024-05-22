@@ -136,6 +136,7 @@ path {
     stroke-width:4px;
     transition: ease;
     transition-duration: 0.25s;
+    text-decoration: none;
 }
 
 path:hover {
@@ -150,16 +151,11 @@ path:active {
 }
 
 #buttonText {
-    user-select: none;
-    pointer-events: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    text-decoration: none;
     transition-duration: 0.25s;
-    transform: translate(-50%, -100%);
     font-family: 'Gill Sans', 'Arial', 'Verdana';
     font-size: 40px;
-    color: white;
+    fill: white;
     --stroke-color-one:black;
     --stroke-width-one: 4px;
     text-shadow: calc(var(--stroke-width-one) * 1) calc(var(--stroke-width-one) * 0) 0
